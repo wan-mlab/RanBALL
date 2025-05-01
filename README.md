@@ -1,4 +1,4 @@
-# RanBALL: An Ensemble Random Projection Model for Identifying Subtypes of B-cell Acute Lymphoblastic Leukemia
+# RanBALL: An Ensemble <ins>Ran</ins>dom Projection Model for Identifying Subtypes of <ins>B</ins>-cell <ins>A</ins>cute <ins>L</ins>ymphoblastic <ins>L</ins>eukemia
 
 **RanBALL** (an Ensemble **Ran**dom Projection-Based Model for Identifying **B**-Cell **A**cute **L**ymphoblastic **L**eukemia Subtypes), an accurate and cost-effective model for B-ALL subtype identification based on transcriptomic profiling only. Leveraging the random projection and SVM techniques, our **RanBALL** enables to identify accurately and efficiently 20 distinct B-ALL subtypes, which could provide reliable diagnostic insights that can significantly aid clinical decision-making processes.
 
