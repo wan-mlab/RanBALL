@@ -46,8 +46,8 @@ The prediction results will be stored and exported to the Prediction_results.csv
 
 ### Prediction for a New Patient Sample
 1. Prepare the input file
-   Format: Gene expression matrix with ENSEMBL ID as columns and patient/sample names as rows.
-   Important: The order of ENSEMBL ID must be the same as in the example file (filter_TPM_test.csv) to ensure consistency with the trained model.
+   Format: Gene expression matrix with **ENSEMBL ID** as columns and **patient/sample names** as rows.<br>
+   **Importan**t: The order of ENSEMBL ID must be the same as in the example file (filter_TPM_test.csv) to ensure consistency with the trained model.<br>
    Save your file as new_patient_TPM.csv.
 2. Load your new patient data
 ```bash
