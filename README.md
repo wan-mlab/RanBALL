@@ -44,6 +44,23 @@ RanBALL.Predict(Exp = test, exp_type = 'TPM')
 
 The prediction results will be stored and exported to the Prediction_results.csv
 
+### Prediction for a New Patient Sample
+1. Prepare the input file
+   Format: Gene expression matrix with ENSEMBL ID as columns and patient/sample names as rows.
+   Important: The order of ENSEMBL ID must be the same as in the example file (filter_TPM_test.csv) to ensure consistency with the trained model.
+   Save your file as new_patient_TPM.csv.
+2. Load your new patient data
+```bash
+import pandas as pd
+new_patient = pd.read_csv('new_patient_TPM.csv', index_col=0)
+```
+3. Run prediction using the trained RanBALL model
+```bash
+from RanBALL import RanBALL
+RanBALL.Predict(Exp=new_patient, exp_type='TPM')
+```
+4. Check output results
+   After running the command, the prediction results will appear in Prediction_results.csv
 ## Bug Report
 
 If you find any bugs or problems, or you have any comments on RanBALL, please don't hesitate to contact via email lli@unmc.edu or [Issues](https://github.com/wan-mlab/RanBALL/issues).
