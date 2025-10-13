@@ -58,7 +58,6 @@ new_patient = pd.read_csv('new_patient_TPM.csv', index_col=0)
 from RanBALL import RanBALL
 RanBALL.Predict(Exp=new_patient, exp_type='TPM')
 ```
-4. Check output results
    After running the command, the prediction results will appear in Prediction_results.csv
 ## Bug Report
 
