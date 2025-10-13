@@ -46,8 +46,7 @@ The prediction results will be stored and exported to the Prediction_results.csv
 
 ### Predicting New Patient Samples
 1. Prepare the input file
-   Format: Gene expression matrix with **ENSEMBL ID** as columns and **patient/sample names** as rows.<br>
-   Save your file as new_patient_TPM.csv.
+   Format: Gene expression matrix with **ENSEMBL ID** as columns and **patient/sample names** as rows. Save your file as new_patient_TPM.csv.
 2. Load your new patient data
 ```bash
 import pandas as pd
